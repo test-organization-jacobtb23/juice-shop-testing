@@ -31,7 +31,7 @@ jobs:
           node-version: "20"
 
       # uv required for Python dependency resolution in reachability
-      - uses: astral-sh/setup-uv@v4
+      - uses: astral-sh/setup-uv@v5
 
       - name: Install Socket CLI
         run: pip install socketsecurity --upgrade
